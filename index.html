@@ -1,1 +1,145 @@
 hello
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Александр Макалов — Middle Go Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="page" class="container">
+  <div id="header">
+    <div class="header-classic cv-section clearfix">
+      <div class="col-md-9-custom">
+          <h1>Александр Макалов</h1>
+          <h2>Middle Go Developer / Backend</h2>
+      </div>
+      <div class="col-md-4-custom right">
+        <div class="social-box">
+          <!-- <a href="https://www.linkedin.com/in/vladislav-ezhov-68baa2234" class="linkedin-icon" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a> -->
+          <a href="https://github.com/AleksandrMac" class="github-icon" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a>
+          <a href="https://t.me/monkey28" class="telegram-icon" target="_blank" aria-label="Telegram"><i class="fa fa-telegram"></i></a>
+        </div>
+        <div class="contact-info">
+          <p>
+            Email: <a href="mailto:makalov.alex@yandex.ru">makalov.alex@yandex.ru</a><br>
+            Телефон: <a href="tel:+79619592038">+7 (961) 959-20-38</a><br>
+            Сайт: <a href="https://aleksandrmac.github.io/">aleksandrmac.github.io</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    <!-- Опыт работы -->
+    <div class="content cv-section clearfix">
+      <div class="col-md-3">
+        <h2 class="section-title">Опыт работы</h2>
+      </div>
+      <div class="col-md-9">
+        <div class="cv-item">
+          <h3>Go Developer</h3>
+          <h4>Быстрая поставка систем, Полный день, Июнь 2023 – Февраль 2024</h4>
+          <p>Развитие сервиса грузоперевозок.</p>
+          <ul>
+            <li>Реализовал микросервис "Справочник дополнительных услуг", что дало администраторам системы более гибко настраивать оценку транспортных перевозок.</li>
+            <li>В сервисе был реализован механизм динамического расчета коэффициентов и надбавок, на основе библиотеки google/cel-go.
+                Что дало возможность условной настройки параметров перевозок.</li>
+            <li>Документирование ключевых моментов микросервиса.</li>
+            <li>Произвел интеграцию нового сервиса, в общий пайплайн поиска маршрутов.</li>
+          </ul>          
+          <p>Устранение артефактов в других сервисах, находящихся на обслуживании в организации.</p>
+        </div>
+
+        <div class="cv-item">
+          <h3>Go Developer</h3>
+          <h4>Целевое управление, Полный день, Март 2022 – Июнь 2023</h4>
+          <p>Продукт управления персоналом. Расчет КPI, зарплаты и контроль выполнения задач в режиме реального времени.</p>
+          <ul>
+            <li>Выявил и устранил место утечки памяти, что привело к стабильной работе приложения и 
+                сокращению расходов на инфраструктуру приложения в 10ки раз.</li>
+            <li>Настроил централизованную систему метрик и мониторинга со множества сервисов,
+                что позволило быстрее находить проблемые места в работе сервиса.</li>
+            <li>В сжатые сроки разобрался в инфраструктуре проекта, 
+                в условиях приблеженных к полной неизвестности, что позволило осуществить постепенный перезд 
+                с зарубежных серверов на отечественные.</li>
+            <li>Привел сервис к statless требованиям, что позволило добавить балансировщик нагрузки и распределить нагрузку.</li>
+            <li>Настроил сервис centrifugo, что обеспечело корректную работу WebSocket-ов через балансировщик нагрузок.</li>
+          </ul>
+        </div>
+
+        <div class="cv-item">
+          <h3>Старший It специалист</h3>
+          <h4>ИП Хохриков, Полный день, Апрель 2012 – Март 2022</h4>
+          <ul>
+            <li>Разработал и внедрил клиент-серверные десктоп приложения для управления и доставки цифровых продуктов через интернет, что:
+                <ul> 
+                    <li>обеспечело моментальную доставку продукта</li>
+                    <li>позволило перейти на предоплатную систему расчетов</li>
+                    <li>исключило необходимость поиска доп. сотрудников в пиковые нагрузки(квартальное обновлени)</li>
+                    <li>расширило географию работу работы компании</li>
+                    <li>дало возможность масштабировать количество обслуживаемых клиентов, без доп затрат и рисков</li>                    
+                </ul>                
+            </li>
+
+            <li>оказывал техническую(бонусом психологическую&#128521;) поддержку</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Навыки -->
+    <div class="content cv-section clearfix">
+      <div class="col-md-3">
+        <h2 class="section-title">Навыки</h2>
+      </div>
+      <div class="col-md-9 skills-grid">
+        <div class="container text-left col-xs-12">
+          <div class="row">
+            <div class="col-xs-3"><li>Go (Golang)</li></div>
+            <div class="col-xs-3"><li>PostgreSQL</li></div>
+            <div class="col-xs-3"><li>MySQL</li></div>
+            <div class="col-xs-3"><li>Redis</li></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3"><li>Kafka</li></div>
+            <div class="col-xs-3"><li>Docker</li></div>
+            <div class="col-xs-3"><li>RabbitMQ</li></div>
+            <div class="col-xs-3"><li>Nats(Jetstream)</li></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3"><li>Grafana</li></div>
+            <div class="col-xs-3"><li>OTEL</li></div>
+            <div class="col-xs-3"><li>ClickHouse</li></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Образование -->
+    <div class="content cv-section clearfix">
+      <div class="col-md-3">
+        <h2 class="section-title">Образование</h2>
+      </div>
+      <div class="col-md-9">
+        <div class="cv-item">
+          <h3>Благовещеский государственный педагогический университет</h3>
+          <h4>Бакалавр, Математическое обеспечение и администрирование систем — 2015</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body></html>
